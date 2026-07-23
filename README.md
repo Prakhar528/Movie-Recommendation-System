@@ -66,8 +66,6 @@ Movie-Recommendation-System/
 │
 ├── app.py
 ├── README.md
-├── movie_list.pkl
-├── similarity.pkl
 ├── notebooks/
 └── .gitignore
 ```
@@ -98,14 +96,19 @@ Install the required libraries:
 pip install pandas numpy scikit-learn streamlit requests
 ```
 
-Run the application:
+### Generate the Required Files
+
+Before running the application, execute the notebook in the `notebooks/` directory to preprocess the dataset and generate the required serialized (`.pkl`) files.
+
+> **Note:** The generated `.pkl` files are not included in this repository.
+
+### Launch the Application
 
 ```bash
 streamlit run app.py
 ```
 
 ---
-
 
 ## 📚 Concepts Demonstrated
 
