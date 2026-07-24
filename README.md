@@ -1,16 +1,16 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
 A **content-based Movie Recommendation System** built using **Python**, **Scikit-learn**, and **Streamlit**. The application recommends movies similar to a selected movie by computing cosine similarity on movie metadata and displays movie posters using **The Movie Database (TMDB) API**.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project demonstrates the implementation of a basic recommendation engine using machine learning concepts such as text preprocessing, feature engineering, vectorization, and similarity computation. It also showcases how to deploy a machine learning model through an interactive web application using Streamlit.
 
 ---
 
-## ✨ Features
+## Features
 
 * Recommend movies similar to the selected movie.
 * Display movie posters using the TMDB API.
@@ -20,7 +20,7 @@ This project demonstrates the implementation of a basic recommendation engine us
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -32,7 +32,7 @@ This project demonstrates the implementation of a basic recommendation engine us
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The project uses the TMDB Movie Metadata dataset, which contains information such as:
 
@@ -47,7 +47,7 @@ These features are combined to generate recommendations based on movie content.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Load and preprocess the movie dataset.
 2. Combine important textual features into a single feature.
@@ -59,20 +59,27 @@ These features are combined to generate recommendations based on movie content.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Movie-Recommendation-System/
 │
+├── data/
+│   ├── tmdb_5000_movies.csv
+│   └── tmdb_5000_credits.csv
+│
+├── notebooks/
+│   └── movie_recommendation.ipynb
+│
+├── .gitignore
 ├── app.py
 ├── README.md
-├── notebooks/
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
 
-## ▶️ Run the Project Locally
+## Run the Project Locally
 
 Clone the repository:
 
@@ -110,7 +117,7 @@ streamlit run app.py
 
 ---
 
-## 📚 Concepts Demonstrated
+## Concepts Demonstrated
 
 * Content-Based Recommendation Systems
 * Feature Engineering
@@ -123,7 +130,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Display IMDb ratings.
 * Show movie overview and release year.
@@ -134,10 +141,10 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Prakhar Naudiyal**
 
-Aspiring Data Analyst | Data Science & Machine Learning Enthusiast
+Interested in Machine Learning, Data Science, and AI applications.
 
-If you have any suggestions or feedback, feel free to connect or raise an issue in this repository.
+If you have any suggestions or feedback, feel free to connect or open an issue in this repository.
